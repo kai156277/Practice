@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>855</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout"/>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>855</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="mLoadPluginAction"/>
+   <addaction name="mLoadBaseMapAction"/>
+   <addaction name="mSupportBaseMapAction"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="mLoadPluginAction">
+   <property name="text">
+    <string>加载插件</string>
+   </property>
+  </action>
+  <action name="mLoadBaseMapAction">
+   <property name="text">
+    <string>加载底图</string>
+   </property>
+  </action>
+  <action name="mSupportBaseMapAction">
+   <property name="text">
+    <string>查看支持的底图</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
