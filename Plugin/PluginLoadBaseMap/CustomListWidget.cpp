@@ -103,7 +103,8 @@ void CustomListWidget::slotUpdateImageLevel()
 
 void CustomListWidget::loadPlugins()
 {
-    QDir pluginsDir(R"(D:\Qt\build-Test-Desktop_Qt_5_9_5_MSVC2015_64bit-Release\customBaseMap\release)");
+    qDebug() << "load plugin:" << QApplication::applicationDirPath();
+    QDir pluginsDir(QApplication::applicationDirPath());
 
     foreach (QString fileName, pluginsDir.entryList(QDir::Files))
     {
