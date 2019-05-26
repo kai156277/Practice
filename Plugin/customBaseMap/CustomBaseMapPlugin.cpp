@@ -6,6 +6,8 @@
 
 CustomBaseMapPlugin::CustomBaseMapPlugin()
 {
+    QSettings config;
+    config.setValue("TestValue", 100);
     mPos = QPointF(0, 0);
 }
 

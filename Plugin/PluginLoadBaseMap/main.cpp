@@ -7,8 +7,12 @@
 
 int main(int argc, char *argv[])
 {
+
     QApplication a(argc, argv);
-    MainWindow   w;
+    QCoreApplication::setApplicationName("LoadBaseMap");
+    QCoreApplication::setOrganizationName("XiuShan");
+    QCoreApplication::setOrganizationDomain("supersurs.com");
+    MainWindow w;
     w.show();
 
     qDebug() << QImageReader::supportedImageFormats();
