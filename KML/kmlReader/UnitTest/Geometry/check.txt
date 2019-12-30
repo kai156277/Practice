@@ -1,0 +1,6 @@
+# 文件名, fromDom, id, lng, lat, alt, 
+point0,true,point0,112.877830253658,21.8834396947178,0
+point1,true,point1,112.877830253658,21.8834396947178,0
+point2,false,point2,0,0,0
+point3,false,point3,0,0,0
+point4,false,point4,0,0,0

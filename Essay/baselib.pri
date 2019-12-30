@@ -1,0 +1,6 @@
+DEFINES += USER_STDAFX
+CONFIG += precompile_header
+PRECOMPILED_HEADER = ..\stdafx.h
+
+
+INCLUDEPATH += $$PWD

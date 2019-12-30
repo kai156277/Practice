@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Demo</class>
+ <widget class="QWidget" name="Demo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>446</width>
+    <height>279</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Demo</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="10" column="3">
+    <widget class="QPushButton" name="mStartPushButton">
+     <property name="text">
+      <string>开始</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="3">
+    <widget class="QPushButton" name="mStopPushButton">
+     <property name="text">
+      <string>停止</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QCheckBox" name="mSerialPortFileCheckBox">
+     <property name="text">
+      <string>串口信息文件</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLineEdit" name="mInputFolderLineEdit"/>
+   </item>
+   <item row="0" column="3">
+    <widget class="QPushButton" name="mInputFolderPushButton">
+     <property name="text">
+      <string>浏览</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLineEdit" name="mCalibrationFileLineEdit"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>输入文件夹：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="mCalibrationFilePushButton">
+     <property name="text">
+      <string>浏览</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>相片分辨率：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QPushButton" name="mSerialPortPushButton">
+     <property name="text">
+      <string>浏览</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QCheckBox" name="mConvertFileCheckBox">
+     <property name="text">
+      <string>生成单相片</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>相机标定文件：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLineEdit" name="mSerialPortFileLineEdit"/>
+   </item>
+   <item row="5" column="2">
+    <widget class="QSpinBox" name="mWorkThreadSpinBox">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>7</number>
+     </property>
+     <property name="value">
+      <number>4</number>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QSpinBox" name="mBrightnessSpinBox">
+     <property name="minimum">
+      <number>100</number>
+     </property>
+     <property name="maximum">
+      <number>220</number>
+     </property>
+     <property name="value">
+      <number>136</number>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>工作线程数：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>相片亮度：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QCheckBox" name="mNoiseCheckBox">
+     <property name="text">
+      <string>降噪</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QSpinBox" name="mResolutionSpinBox">
+     <property name="minimum">
+      <number>4000</number>
+     </property>
+     <property name="maximum">
+      <number>15000</number>
+     </property>
+     <property name="singleStep">
+      <number>2000</number>
+     </property>
+     <property name="value">
+      <number>12000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0" rowspan="2" colspan="3">
+    <widget class="QLabel" name="mMessageLabel">
+     <property name="text">
+      <string>消息</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2">
+    <widget class="QCheckBox" name="mConvertPanoramaCheckBox">
+     <property name="text">
+      <string>生成全景相片</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3">
+    <widget class="QPushButton" name="mCreateTimeFilePushButton">
+     <property name="text">
+      <string>生成time文件</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QCheckBox" name="mCreateTimeFileCheckBox">
+     <property name="text">
+      <string>生成time文件</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
