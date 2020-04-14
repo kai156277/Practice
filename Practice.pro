@@ -1,6 +1,7 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    AnalogClock \
-    GrahamTest \
-    Plugin
+#    AnalogClock \
+#    GrahamTest \
+#    Plugin \
+    cppTest
